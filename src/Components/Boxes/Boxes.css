@@ -1,0 +1,114 @@
+/* ValueBoxes */
+
+.valueboxes {
+    width: 200px;
+    height: 120px;
+    border-radius: 6px;
+    padding: 8px 13px;
+    background-color: #f1006e1f;
+}
+
+.heading {
+    font-size: 1.2rem;
+}
+ 
+.valueboxes h2,
+.valueboxes h1,
+.valueboxes p {
+    line-height: 1.6;
+}
+
+.valueboxes p {
+    font-size: 0.9rem;
+    color: #b5465a;
+}
+
+/* GraphBox */
+
+.graphbox {
+    width: 300px;
+    height: 180px;
+    border-radius: 11px;
+    padding: 22px 14px;
+    border: 2px solid #00000012;
+    display: flex;
+    justify-content: space-between;
+}
+
+.graphbox h2,
+.graphbox h1 {
+    /* margin-bottom: 30px; */
+    line-height: 1.6;
+}
+
+.graphbox h1 {
+    font-size: 2.7rem;
+}
+
+.graph-para {
+    font-size: 0.8rem;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.insight-para,
+.graphlogo {
+    margin-bottom: 0px
+
+}
+
+.insight-para {
+    font-size: 0.8rem;
+    font-weight: 500;
+    background-color: #ffb8a294;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+/* activity box style */
+
+.activitybox {
+    width: 400px;
+    /* height: 300px; */
+    border-radius: 11px;
+    padding: 16px 14px;
+    background-color: #0c1633f0;
+    color: #ffffff7a;
+}
+
+.act-heading {
+    margin-bottom: 30px;
+}
+
+.date {
+    font-size: .8rem;
+}
+
+.activity-mid {
+    margin-bottom: 1.5rem;
+}
+.activity-mid h3 {
+    margin-bottom:.4rem;
+}
+
+.mid-act-para {
+    font-size: .9rem;
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+.activity-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activity-end h4 {
+    font-size: .88rem;   
+}
+
+.activity-end button {
+    padding: 10px 15px;
+    border-radius: 6px;
+   background-color: #ff5c0b;
+}

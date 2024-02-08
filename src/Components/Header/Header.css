@@ -1,0 +1,37 @@
+/* header style */
+
+.header {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.header-input {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 11px 10px;
+    width: 270px;
+    margin: 0 2.5rem;
+}
+
+ .search-container{
+    position: relative;
+    display: inline-block;
+  }
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 54px; 
+    transform: translateY(-50%);
+  }
+
+
+  /* user style */
+.user-profile {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin: 0 4rem;
+}
