@@ -1,0 +1,38 @@
+.announcement {
+    border: 1px solid black;
+    padding:  15px 12px;
+   }
+   
+   .announcement h3 {
+      font-weight: 500;
+   }
+   
+   .announcement p {
+       font-size: .8rem;
+       font-weight: 100;
+   }
+   .announcement-top{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 10px;
+   }
+   
+   .pin-icon {
+       transform: rotate(45deg);
+   }
+   
+   .pinned {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       border: 1px solid #0000001f;
+       padding: 16px 10px;
+       border-radius: 5px;
+       margin-bottom: .5rem;
+   
+   }
+   
+   .pinned h3 {
+       font-size: 1rem;
+   }

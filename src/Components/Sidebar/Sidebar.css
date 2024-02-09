@@ -1,0 +1,40 @@
+.sidebar {
+    width: 200px;
+}
+
+.sidebar-top {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.menu-heading {
+    padding: 21px 28px;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu .menu-list {
+    list-style: none;
+    padding: 0;
+    line-height: 2.5;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 0 12px;
+}
+
+.other ul {
+    list-style: none;
+    line-height: 2.2;
+}
+
+.other a {
+    text-decoration: none;
+    color: black;
+}

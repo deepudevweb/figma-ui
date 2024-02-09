@@ -1,0 +1,19 @@
+.dashboard-inner {
+    display: flex;
+}
+
+.dashbox {
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+.dashboard {
+    display: flex;
+} 
+
+@media screen and (max-width: 768px) {
+    .dashboard-inner {
+        flex-direction: column;
+    }
+}
