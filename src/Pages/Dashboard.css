@@ -5,15 +5,25 @@
 .dashbox {
     display: flex;
     margin-bottom: 10px;
-    
 }
 
 .dashboard {
     display: flex;
 } 
-
+.dashboard-Container{
+    flex: 1;
+}
+.left{
+    flex: 1;
+    padding: 10px;
+}
 @media screen and (max-width: 768px) {
     .dashboard-inner {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 450px) {
+    .dashbox{
         flex-direction: column;
     }
 }

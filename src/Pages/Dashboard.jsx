@@ -11,10 +11,10 @@ function Dashboard() {
   return (
    <div className='dashboard'>
   <Sidebar /> 
-   <div>
+   <div className='dashboard-Container'>
       <Header />
     <div className='dashboard-inner'>
-    <div className="left">
+      <div className="left">
          <div className="top-boxes dashbox">
             <Valueboxes value={"24"} para={"4 Urgently needed"} header={"Available Position"} bgcolor={"first-box"} />
             <Valueboxes value={"10"} para={"4 Active hiring"} header={"Job Open"} bgcolor={"second-box"}  />

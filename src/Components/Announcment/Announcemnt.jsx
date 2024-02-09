@@ -8,7 +8,7 @@ function Announcemnt() {
     <div className='announcement'>
       <div className="announcement-top">
         <h3>Announcemnt</h3>
-        <p>Today, 30 Sep 2021 <Dropdown /></p> 
+        <p>Today, 30 Sep 2021 </p> 
       </div>
       <div className='pinned'>
         <div className="content">

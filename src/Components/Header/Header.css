@@ -1,7 +1,7 @@
 /* header style */
 
 .header {
-    border: 1px solid black;
+    border-bottom: 0.5px solid rgb(155, 155, 155);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,7 +12,8 @@
     border: 1px solid black;
     border-radius: 4px;
     padding: 11px 10px;
-    width: 270px;
+    /* width: 270px; */
+    flex: 1;
     margin: 0 2.5rem;
 }
 
@@ -34,4 +35,20 @@
     align-items: center;
     column-gap: 15px;
     margin: 0 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .user-profile {
+        display: none;
+    }
+    .header-input {
+      width: 150px;
+      margin: 0 4.5rem;
+  }
+  .header-input {
+    width: 130px;
+  }
+  .search-icon {
+    right: 84px; 
+  }
 }
